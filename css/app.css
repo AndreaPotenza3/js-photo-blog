@@ -52,7 +52,7 @@ body {
     width: calc(100% / 3);
     flex-shrink: 0;
     padding: 11px;
-    
+    position: relative;
 }
 
 .card {
@@ -61,10 +61,20 @@ body {
     background-color: white;
     padding: 15px;
     flex-shrink: 0;
+    
 }
 
 .card-body {
     padding-top: 15px;
+}
+
+.pin {
+    position:absolute;
+    top: 0;
+    height: 28px;
+    width: 28px;
+    right: 50%;
+    transform: translate(50%);
 }
 
 /* DEBUG */
