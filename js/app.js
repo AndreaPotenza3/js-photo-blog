@@ -1,6 +1,8 @@
 const baseUrl = 'https://jsonplaceholder.typicode.com/'
 let urlBody = 'photos'
 const post = document.querySelector('.row')
+const overlay = document.querySelector('.overlay')
+const closeBtn = document.querySelector('.close')
 
 const endpoint = baseUrl + urlBody 
 console.log(endpoint)
@@ -47,3 +49,7 @@ function getPhotos(photos, root) {
                     
     })
 }
+
+closeBtn.addEventListener('click',() =>{
+    overlay.classList.add('d-none')
+})
