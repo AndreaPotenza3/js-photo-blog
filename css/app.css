@@ -62,11 +62,13 @@ body {
     background-color: white;
     padding: 15px;
     flex-shrink: 0;
+    height: 100%;
     
 }
 
 .card-body {
     padding-top: 15px;
+    height: 100%;
 }
 
 .pin {
@@ -90,6 +92,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 100px;
+    display: none;
 }
 
 .overlay-img {
@@ -99,6 +102,10 @@ body {
 
 .close {
     padding: 10px;
+    margin-bottom: auto;
+}
+
+p {
     margin-bottom: auto;
 }
 
